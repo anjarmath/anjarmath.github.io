@@ -25,6 +25,8 @@ svg {
 body {
   background: #fff;
   color: #333;
+  padding: 5px;
+  margin: 5px;
   font-family: 'Ubuntu', sans-serif;
   position: relative;
 }
