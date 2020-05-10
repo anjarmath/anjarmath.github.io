@@ -1,0 +1,45 @@
+<body>
+  <div class="svg-container">
+    <!-- I crated SVG with: https://codepen.io/anthonydugois/pen/mewdyZ -->
+    <svg viewbox="0 0 800 400" class="svg">
+      <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+      </path>
+    </svg>
+  </div>
+
+  <header>
+    <h1>ANJAR DWI HARIADI</h1>
+    <h3>State University of Malang</h3>
+  </header>
+
+  <main>
+    <center><h2 style="color: #50c6d8;"><i>Copy</i> kode <i>embed</i> dari Google Form dan JotForm</h2></center>
+<ul>
+    <li>Google Form</li>
+<ol>
+<li>Masuk ke halaman editing Google Form</li>
+<li>Klik tombol <i>send</i> di bagian atas</li>
+<center><img src="gform1.png" width="70%"/></center>
+<li>pilih menu '<>', dan di situlah letak kode <i>embed</i> berada, silahkan <i>copy</i></li>
+<center><img src="gform2.png" width="70%"/></center>
+</ol>
+    <li>JotForm</li>
+<ol>
+<li>Masuk ke halaman editing JotForm</li>
+<li>Pilih menu <i>Publish</i> di bagian atas</li>
+<center><img src="jform1.png" width="70%"/></center>
+<li>pilih menu 'Embed'</li>
+<center><img src="jform2.png" width="70%"/></center>
+<li>ada beberapa pilihan, anda bisa mendapatkan kode <i>embed</i> dari bagian 'Embed' paling atas, namun karena kelengkapan <i>source code</i> disarankan memilih menu 'iframe'</li>
+<center><img src="jform3.png" width="70%"/></center>
+<li>silahkan <i>copy</i> seluruh kode yang ada</li>
+<center><img src="jform4.png" width="70%"/></center>
+</ol>
+  </ul>
+  </main>
+
+  <footer>
+    <small>“aku harus kuat, sekalipun aku terjatuh, aku harus pastikan untuk bisa bangkit lagi”<a href="http://wa.me/6281252826167">~An</a>. </small>
+  </footer>
+</body>
+<link rel="stylesheet" type="text/css" href="style.css"/>
