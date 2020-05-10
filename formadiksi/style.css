@@ -46,7 +46,7 @@ main {
   background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
   border-bottom: 2px solid rgba(0, 0, 0, .2);
   padding: 20px;
-  margin: 20px;
+  margin: 0px;
   position: relative;
   overflow: hidden;
 
