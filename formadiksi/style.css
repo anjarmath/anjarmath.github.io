@@ -44,9 +44,9 @@ header {
 
 main {
   background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, .2);
-  padding: 15px;
-  margin: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+  padding: 20px;
+  margin: 20px;
   position: relative;
   overflow: hidden;
 
