@@ -18,7 +18,7 @@ svg {
   }
 
   &:hover path {
-    d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+    d: path("M 300 300 Q 100 250 0 300 L 0 0 L 800 0 L 300 300 Z");
   }
 }
 
@@ -34,7 +34,27 @@ body {
 h3 {
   font-weight: 400;
 }
-
+.ill{
+	max-width: 800px;
+}
+.navigasi{
+	max-width: 800px;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border: 1px solid #ccc;
+	background: #ccc;
+}
 header {
   color: #fff;
   padding-top: 10vw;
@@ -60,6 +80,14 @@ main {
     width: 2px;
     height: 100%;
   }
+}
+pre{
+	border: 1px solid #ccc;
+	background: white;
+	max-width: 800px;
+	width: 90%;
+	height: 500px;
+	overflow: scroll;
 }
 
 footer {
