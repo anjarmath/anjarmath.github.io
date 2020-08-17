@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('Poppins-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('Poppins-Bold.ttf'); 
+}
+
+
+.log{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.nim{
+	font-family: Poppins-Regular;
+	width: 60%;
+	height: 44px;
+	border: 1px solid #eee;
+	max-width: 500px;
+	border-radius: 22px;
+	padding: 0 22px;
+	box-shadow: 0px 10px 10px #ccc;
+	margin-bottom : 30px;
+	font-family: Poppins-Regular;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.hasil{
+	width: 20%;
+	height: 44px;
+	border: none;
+	background: #1193ad;
+	border-radius: 22px;
+	padding: 0 22px;
+	box-shadow: 0px 10px 10px #ccc;
+	margin-bottom : 30px;
+	font-size: 16px;
+	font-family: Poppins-Bold;
+	color: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lolosan{
+	font-family: Poppins-Regular;
+	font-size: 16px;
+	margin: 20px;
+	width: 90%;
+	padding: 30px;
+	max-width: 720px;
+	border-radius: 15px;
+	box-shadow: 0px 10px 10px #ccc;
+	color: white;
+	display: none;
+}
+
+.salah{
+	background: #ffca28;
+}
+
+.lolos{
+	background: #00c853;
+}
+
+.gagal{
+	background: #ff1744;
+}
