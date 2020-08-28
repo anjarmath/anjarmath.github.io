@@ -1,0 +1,136 @@
+<center>
+<div id="bar1">
+<h1 id="kado">KADO UNTUK WIDYA</h1>
+<input type="button" value="BUKA KADO" onclick="mulai();" class="login"/><br/>
+</div>
+
+<div id="bar2">
+<h1 id="highlight"></h1>
+<font color="white" id="isi">
+pada seorang putri<br/>
+kala datang hari ini<br/>
+ialah rembulan menyapamu dengan senyumnya<br/>
+bersama gugusan bintang yang bersinar terang<br/>
+<br/>
+teruntukmu kusuratkan sepenggal puisi<br/>
+aku yang mengadu pada sang fajar<br/>
+agar ia datang memula hari dengan indahnya<br/>
+serupa dengan indahnya hari ini untukmu<br/>
+<br/>
+selamat ulang tahun, adikku<br/>
+inilah harimu,<br/>
+sejenak tersurat doa dari sang semesta<br/>
+juga aku,<br/>
+padamu, <br/>
+widya.<br/>
+<br/>
+aku tak harap apapun<br/>
+kecuali,<br/>
+hanya,<br/>
+semoga bahagia menyertaimu<br/>
+disana,<br/>
+</font>
+</center>
+
+
+
+<style type="text/css">
+	#highlight,#kado{font:bold 50px Impact,Arial,Sans-Serif;}
+	#kado {color:blue;}
+	#isi, .login{font:bold 30px Arial,Sans-Serif;}
+* {margin: 0; padding: 0;}
+
+body {
+	/*You can use any kind of background here.*/
+	background: #6b92b9;
+}
+#bar1{
+display:block;
+}
+#bar2{
+display:none;
+}
+.login{
+color:white;
+		background:#32B5E3; 
+		border:none;
+		border-radius:10px; 
+		width:50%;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		outline:none;
+		-webkit-transition: all .12s ease;
+		  -moz-transition: all .7s ease;
+		  -o-transition: all .7s ease;  
+		  transition: all .7s ease;
+}
+.login:active{
+background:blue;
+}
+</style>
+<script language="javascript" type="text/javascript">
+     var teks="WIDYA DWI SITI FATIMAH" // teks Anda di sini
+     var speed=60 // atur kecepatan perubahan warna
+
+if (document.all||document.getElementById) {
+     document.getElementById("highlight").innerHTML=teks
+     var storetext=document.getElementById? document.getElementById("highlight") :
+document.all.highlight
+} else document.write(text)
+var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+
+var r=1
+var g=1
+var b=1
+var seq=1
+
+function changetext() {
+     rainbow="#"+hex[r]+hex[g]+hex[b]
+     storetext.style.color=rainbow
+}
+
+function change() {
+if (seq==6) {
+b--
+if (b==0)
+seq=1
+}
+if (seq==5) {
+r++
+if (r==12)
+seq=6
+}
+if (seq==4) {
+g--
+if (g==0)
+seq=5
+}
+if (seq==3) {
+b++
+if (b==12)
+seq=4
+}
+if (seq==2) {
+r--
+if (r==0)
+seq=3
+}
+if (seq==1) {
+g++
+if (g==12)
+seq=2
+}
+changetext()
+}
+
+function starteffect() {
+     if (document.all||document.getElementById)
+     flash=setInterval("change()",speed)
+}
+starteffect();
+function mulai(){
+document.getElementById('bar1').style.display="none";
+document.getElementById('bar2').style.display="block";
+}
+</script>
+<script src="https://cdn.rawgit.com/bungfrangki/efeksalju/2a7805c7/efek-salju.js" type="text/javascript"></script>
