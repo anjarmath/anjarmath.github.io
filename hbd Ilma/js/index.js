@@ -294,7 +294,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("img");
-  ifrm.setAttribute("src", "img/ilma.png");
+  ifrm.setAttribute("src", "ilma.png");
   ifrm.style.width = `${w}px`;
   ifrm.style.border = 'none';
   ifrm.style.borderRadius = '13px';
