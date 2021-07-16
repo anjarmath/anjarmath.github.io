@@ -294,7 +294,7 @@ function reveal() {
   }
 
   var ifrm = document.createElement("img");
-  ifrm.setAttribute("src", "img/lina.png");
+  ifrm.setAttribute("src", "http://anjarmath.github.io/avocado/img/lina.png");
   ifrm.style.width = `295px`;
   ifrm.style.border = 'none';
   ifrm.style.background = 'white';
